@@ -1,0 +1,58 @@
+.care:first-child {
+  border-top: 2px solid silver;
+}
+
+.care:last-child {
+  border-bottom: 2px solid silver;
+}
+
+.care {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.5rem;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+
+.care .image {
+  margin-right: 1rem;
+}
+
+.main {
+  width: 100%;
+}
+
+.careHeader {
+  width: 100%;
+  background-color: #f7f9fa;
+}
+
+.careHeader div {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: #1f1f1f;
+}
+
+.content {
+  padding: 1rem 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 95%;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.careArrow {
+  transform: rotate(90deg);
+}
+
+.arrowDown {
+  transform: rotate(0deg);
+}

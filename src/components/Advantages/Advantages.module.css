@@ -1,0 +1,45 @@
+.container {
+  margin: 0 15rem;
+}
+
+.advantages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7rem 0;
+}
+
+.advantage {
+  padding: 2rem;
+  width: 30%;
+  transition: all 0.4s ease;
+}
+
+.advantage:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.advantage h3 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.advantage p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+
+.fast {
+  background-color: #faea73;
+}
+
+.buck {
+  background-color: #cceff6;
+}
+
+.safe {
+  background-color: #f7cedc;
+}

@@ -1,0 +1,61 @@
+.container {
+  margin: 0 15rem;
+}
+
+.started {
+  padding: 4rem 0;
+}
+
+.startedScreen {
+  background-color: #e6f7ff;
+  padding: 3rem 4rem;
+  font-weight: 400;
+  color: #1f1f1f;
+  border-radius: 8px;
+}
+
+.startedScreen h3 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-size: 42px;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.startedScreen p {
+  font-size: 18px;
+  line-height: 27px;
+  width: 40%;
+  padding: 1rem 0 2rem;
+}
+
+.startedBtn {
+  padding: 0.7rem 2.2rem;
+  margin-bottom: 1rem;
+  transition: all 0.4s linear;
+}
+
+.startedBtn span {
+  font-size: 17px;
+}
+
+.startedList {
+  list-style-image: url(/started-list-marker.svg);
+  color: #626a72;
+  font-size: 13px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.startedList li:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.demoBtn {
+  background-color: #0070a0;
+  color: #fff;
+}
+
+.demoBtn:hover {
+  background-color: rgb(68, 186, 236);
+}

@@ -1,0 +1,65 @@
+header {
+  padding: 1.5rem 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15rem;
+}
+
+.headerLeft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 3rem;
+}
+
+.logoImg {
+  width: 9rem;
+}
+
+nav a {
+  color: #33383f;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #0070a0;
+}
+
+nav a:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.headerRight button {
+  padding: 0.7rem 1rem;
+  transition: all 0.5s linear;
+  border-radius: 5px;
+}
+
+.headerRight button:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.signInBtn {
+  color: #0070a0;
+}
+
+.signInBtn:hover {
+  color: #fff;
+  background-color: rgb(68, 186, 236);
+}
+
+.demoBtn {
+  background-color: #0070a0;
+  color: #fff;
+}
+
+.demoBtn:hover {
+  background-color: rgb(68, 186, 236);
+}

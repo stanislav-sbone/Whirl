@@ -1,0 +1,63 @@
+.container {
+  margin: 0 15rem;
+}
+
+.track {
+  background-color: #0070a0;
+  padding: 5rem 0;
+}
+
+.trackScreen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trackDescription {
+  width: 50%;
+  color: #fff;
+}
+
+.trackDescription h3 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 42px;
+  width: 70%;
+}
+
+.trackDescription p {
+  width: 75%;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 1rem 0;
+}
+
+.markers {
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0;
+  width: inherit;
+}
+
+.markers li {
+  list-style-image: url(/list-mark.svg);
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0.4rem;
+}
+
+.trackBtn {
+  padding: 0.7rem 1rem;
+  transition: all 0.5s linear;
+  border-radius: 5px;
+}
+
+.demoBtn {
+  background-color: #0070a0;
+  color: #fff;
+}
+
+.demoBtn:hover {
+  background-color: rgb(68, 186, 236);
+}

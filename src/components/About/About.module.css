@@ -1,0 +1,46 @@
+.container {
+  margin: 0 15rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem 0;
+}
+
+.aboutTitle h3 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #1f1f1f;
+  font-size: 42px;
+}
+
+.aboutTitle h3 span {
+  font-size: 40px;
+}
+
+.aboutCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 70%;
+}
+
+.aboutCard {
+  width: 30%;
+}
+
+.aboutCard h4 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #1f1f1f;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+.aboutCard p {
+  font-size: 14px;
+  line-height: 24px;
+}

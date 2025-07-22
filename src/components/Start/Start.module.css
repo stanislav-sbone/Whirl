@@ -1,0 +1,54 @@
+.container {
+  margin: 0 15rem;
+}
+
+.start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.startLeft {
+  width: 70%;
+}
+
+.startLeft h1 {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  width: 55%;
+}
+
+.startLeft p {
+  color: #1f1f1f;
+  font-size: 20px;
+  width: 38%;
+  padding: 1.5rem 0;
+}
+
+.startLeft button {
+  padding: 0.7rem 1.5rem;
+  transition: all 0.5s linear;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.startLeft a {
+  color: #0070a0;
+  transition: all 0.3s linear;
+}
+
+.startLeft a:hover {
+  text-decoration: underline;
+}
+
+.startButton {
+  background-color: #0070a0;
+  color: #fff;
+}
+
+.startButton:hover {
+  background-color: rgb(68, 186, 236);
+}

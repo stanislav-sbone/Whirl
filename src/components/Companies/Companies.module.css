@@ -1,0 +1,32 @@
+.container {
+  margin: 0 15rem;
+}
+
+.companies {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.companies h3 {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.companies div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.companies div img {
+  transition: filter 0.3s linear;
+}
+
+.companies div img:hover {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(1472%)
+    hue-rotate(161deg) brightness(93%) contrast(101%);
+}
+
+.companies div img:not(:last-child) {
+  margin-right: 5rem;
+}

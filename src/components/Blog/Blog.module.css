@@ -1,0 +1,86 @@
+.container {
+  margin: 0 15rem;
+}
+
+.blog {
+  background-color: #f7f9fa;
+  padding: 4rem 0;
+}
+
+.blogTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 3rem;
+}
+
+.blogTitle h3 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 42px;
+  color: #1f1f1f;
+}
+
+.blogTitle a {
+  color: #0070a0;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.blogTitle a:hover {
+  text-decoration: underline;
+}
+
+.blogCards {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.cardItem {
+  background-color: #fff;
+  font-weight: 400;
+  color: #1f1f1f;
+  width: 355px;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+}
+
+.cardItem:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cardContent {
+  padding: 1rem;
+}
+
+.topic {
+  padding: 0.2rem 0.8rem;
+  background-color: #e6f7ff;
+  color: #2c90c9;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+}
+
+.cardContent h4 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: inherit;
+  color: inherit;
+  font-size: 25px;
+  margin-top: 0.5rem;
+}
+
+.cardContent p {
+  font-size: 14px;
+  padding: 1rem 0;
+}
+
+.blogDate {
+  font-size: 10px;
+  color: inherit;
+  font-weight: inherit;
+}
